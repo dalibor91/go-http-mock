@@ -1,0 +1,15 @@
+[
+  {
+    "path": "/",
+    "always_show": 0,
+    "responses": [
+    ],
+    "responses_file": "examples/separate_responses/requests_root.json"
+  },
+  {
+    "path": "/ping",
+    "responses": [
+    ],
+    "responses_file": "examples/separate_responses/requests_ping.json"
+  }
+]

@@ -1,0 +1,31 @@
+[
+  {
+    "path": "/",
+    "responses": [
+      {
+        "headers": [
+          { "name": "Content-Type",  "value": "text/html" }
+        ],
+        "body_from_url": "http://dalibor.me/"
+      },
+      {
+        "headers": [
+          { "name": "Content-Type",  "value": "text/html" }
+        ],
+        "body_from_url": "https://github.com/"
+      },
+      {
+        "headers": [
+          { "name": "Content-Type",  "value": "text/html" }
+        ],
+        "body_from_url": "https://google.com/"
+      },
+      {
+        "headers": [
+          { "name": "Content-Type",  "value": "text/html" }
+        ],
+        "body_from_url": "https://example.com/"
+      }
+    ]
+  }
+]

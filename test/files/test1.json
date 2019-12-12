@@ -1,0 +1,16 @@
+[
+  {
+    "path": "/test1",
+    "responses": [
+      {
+        "headers": [
+          {
+            "name": "test",
+            "value": "test1"
+          }
+        ],
+        "body": "test1"
+      }
+    ]
+  }
+]

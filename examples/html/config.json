@@ -1,0 +1,28 @@
+[
+  {
+    "path": "/",
+    "always_show": 0,
+    "responses": [
+      {
+        "headers": [
+          { "name": "Content-Type",  "value": "text/html" }
+        ],
+        "body_from_file": "examples/html/hello.html"
+      }
+    ]
+  },
+  {
+    "path": "/not_found",
+    "always_show": 0,
+    "responses": [
+      {
+        "headers": [
+          { "name": "Content-Type",  "value": "text/html" },
+          { "name": "x-Foo",  "value": "bar" }
+        ],
+        "body_from_file": "examples/html/hello.html",
+        "code": 404
+      }
+    ]
+  }
+]

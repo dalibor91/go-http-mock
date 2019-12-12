@@ -1,0 +1,16 @@
+[
+  {
+    "path": "/test4",
+    "responses": [
+      {
+        "headers": [
+          {
+            "name": "Content-Type",
+            "value": "text/html"
+          }
+        ],
+        "body_from_url": "http://example.com"
+      }
+    ]
+  }
+]

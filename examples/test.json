@@ -1,0 +1,49 @@
+[
+  {
+    "path": "/",
+    "always_show": 0,
+    "responses": [
+      {
+        "headers": [
+          { "name": "Content-Type",  "value": "application/json" }
+        ],
+        "body": "{\"this\": \"is root page\"}"
+      }
+    ]
+  },
+  {
+    "path": "/ping",
+    "responses": [
+      {
+        "headers": [
+          { "name": "Content-Type",  "value": "application/json" }
+        ],
+        "body": "{\"this\": \" is ping page 1\"}"
+      },
+      {
+        "headers": [
+          { "name": "Content-Type", "value": "application/json" }
+        ],
+        "body": "{\"this\": \" is ping page 2\"}"
+      },
+      {
+        "headers": [
+          { "name": "Content-Type", "value": "application/json" }
+        ],
+        "body": "{\"this\": \" is ping page 3\"}"
+      }
+    ]
+  },
+  {
+    "path": "/print_config",
+    "always_show": 0,
+    "responses": [
+      {
+        "headers" : [
+          { "name": "Content-Type",  "value": "application/json" }
+        ],
+        "body_from_file": "./examples/test.json"
+      }
+    ]
+  }
+]

@@ -1,0 +1,8 @@
+[
+  {
+    "path": "/test3",
+    "responses": [
+    ],
+    "responses_file": "files/test3.requests.json"
+  }
+]

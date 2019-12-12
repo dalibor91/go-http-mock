@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+
+docker build -t go-http-mock .
+
+if [ "$PORT" = "" ];
+then
+  PORT=8787
+fi
+
+docker run -it -p $PORT:8787 --rm go-http-mock $@
